@@ -1,38 +1,63 @@
-# create-svelte
+# Frontend Mentor - Multi-step form solution
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a solution to the [Multi-step form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Creating a project
+## Table of contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Overview
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### The challenge
 
-## Developing
+Users should be able to:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Complete each step of the sequence
+- Go back to a previous step to update their selections
+- See a summary of their selections on the final step and confirm their order
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-```bash
-npm run dev
+### Screenshot
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+![Screenshot](./screenshot.png)
 
-## Building
+### Links
 
-To create a production version of your app:
+- Solution URL: [https://github.com/srikantgudi/multi-step-form](https://github.com/srikantgudi/multi-step-form)
+- Live Site URL: [https://multi-step-form-mu-cyan.vercel.app](https://multi-step-form-mu-cyan.vercel.app)
 
-```bash
-npm run build
-```
+## My process
 
-You can preview the production build with `npm run preview`.
+### Built with
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- SvelteKit
+- Tailwind CSS
+
+### What I learned
+
+- Tried using `tailwindcss` with various styles and was successful in doing so.
+
+### Continued development
+
+- Will try and use `tailwindcss` in different projects in `sveltekit`.
+
+### Useful resources
+
+- [SvelteKit](https://kit.svelte.dev) - This is an amazing modern JavaScript framework to build fantastic web applications.
+- [Tailwind CSS](https://tailwindcss.com/docs/installation) - This is an amazing css library which I'd recommend it to anyone still learning this concept.
+
+## Author
+
+- Website - [Srikantgudi](https://www.github.com/srikantgudi)
+- Frontend Mentor - [@srikantgudi](https://www.frontendmentor.io/profile/srikantgudi)
