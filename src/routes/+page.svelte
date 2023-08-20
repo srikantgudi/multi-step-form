@@ -69,18 +69,17 @@
     if (curstep > 1) {
       curstep--;
     }
+    if (!cursteps.includes(curstep)) {
+      cursteps = [...cursteps, curstep]
+    }
   }
 
   const goNext = () => {
     if (curstep < 4) {
       curstep++;
     }
-  }
-
-  const goStep = (n) => {
-    curstep = n;
-    if (!cursteps.includes(n)) {
-      cursteps = [...cursteps, n]
+    if (!cursteps.includes(curstep)) {
+      cursteps = [...cursteps, curstep]
     }
   }
 
@@ -231,7 +230,9 @@
           {#if curstep < 4}
           <button class="border-2 bg-blue-100 p-1 px-4 rounded-md" on:click={() => goNext()}>Next</button>
           {/if}
+          {#if curstep === 4}
           <button class="border-2 bg-blue-300 p-1 px-4 rounded-md">Confirm</button>
+          {/if}
         </div>
     </div>
   </div>
